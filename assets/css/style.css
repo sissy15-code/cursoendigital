@@ -1,0 +1,13 @@
+body{
+    background-color: cornflowerblue;
+    color: rgb(53, 0, 139);
+}
+h1{
+    color: aliceblue;
+}
+.h1{
+    color: coral; /*color de la letra*/
+    font-size: 45px; /*tamanio de la fuente*/
+    font-family: Verdana, Geneva, Tahoma, sans-serif; /*tipo de fuente o letra*/
+    text-transform: uppercase;/*cambia el formato de la fuente a mayuscula*/
+}
