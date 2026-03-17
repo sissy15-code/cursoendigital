@@ -29,6 +29,9 @@ ul{
 }
 a{text-decoration: none;
 }
+a:hover{
+    text-decoration: none;
+}
 .logo{
     width: 200px;
 }
@@ -40,10 +43,10 @@ a{text-decoration: none;
     color: var(--baby-yellow);
 }
 .main-menu li a:hover{
-    color: var(--secundary-color);
+    color: var(--terciary-color);
 }
 /*quienes somos*/
-.container-fluid{
+.quienes-somos{
     display: grid;
     grid-template-columns: auto auto; /*se divide en dos columnas*/
 }
@@ -52,6 +55,9 @@ a{text-decoration: none;
 }
 .padding-50x{
     padding: 20px 30px;
+}
+.padding-80x{
+    padding: 80px 30px;
 }
 h2{
     font-size: 2.5rem;
@@ -67,6 +73,7 @@ h2{
     width: 300px;
     background-color:var(--main-color);
     color: var(--baby-yellow);
+    font-family: "Poppins", sans-serif;
     font-size: 1rem;
     padding: 10px 20px;
     border-radius: 20px;
@@ -74,4 +81,60 @@ h2{
 .btn-main-color:hover{
     background-color: var(--main-color);
     color: var(--baby-yellow);
+}
+
+/*Servicios*/
+.container-fluid{
+    width: 100%;
+}
+.main-color{
+    background-color: var(--main-color);
+    color: var(--white);
+}
+.servicios{
+    display: grid;
+    row-gap: 30px; /*Agrega espacios entre las filas de mi grilla*/
+    grid-template-columns: 1fr 1fr 1fr;
+}
+.center{
+    text-align: center;
+}
+.icon{
+    color: var(--baby-yellow);
+}
+.icon:hover{
+    color: var(--terciary-color);
+}
+
+/*footer*/
+.footer{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    padding: 30px;
+    font-size: 0.95rem;
+}
+.logo-footer{
+    width: 200px;
+}
+.secundary{
+    background-color: var(--secundary-color);
+    color: var(--white);
+}
+.footer ul li a{
+    color: var(--white);
+}
+.footer ul li a:hover{
+    color: var(--terciary-color)
+}
+.social-iconos a{
+    color: var(--white);
+    font-size: 1.5rem;
+    padding-left: 25px;
+}
+.social-iconos a:hover{
+    color: var(--terciary-color);
+}
+footer h3{
+    color: var(--baby-yellow);
+    padding-left: 40px;
 }
