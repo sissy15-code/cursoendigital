@@ -21,11 +21,22 @@
         </hav>
     </header>
 
-<section class="container-fluid main-color">
-    <h1> Contacto</h1>
-    <p>Nuestro equipo de profesionales, se encuentra aquí para atenderte</p>
+<section class="container-fluid white">
+    <h1 class="center"> Contacto</h1>
+    <p class="center">Nuestro equipo de profesionales, se encuentra aquí para atenderte</p>
     <div class="contacto">
-        <div class="col"></div>
+        <div class="col">
+            <p>Puedes encontrarnos en algunas de nuestras sucursales</p>
+            <ul>
+                <li><i class="fa-solid fa-location-dot"></i>Maracay</li>
+                <li><i class="fa-solid fa-location-dot"></i>San Juan de Los Morros</li>
+            </ul>
+            <ul>
+                <li><i class="fa-brands fa-whatsapp"></i>0412-0360137</li>
+                <li><i class="fa-solid fa-envelope"></i>academiaendigital@gmail.com</li>
+            </ul>
+            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3926.1954541581!2d-67.58950129035269!3d10.245814668716404!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8c2aa9a22ae8d705%3A0xc93b6fc74ba9a8f3!2sAcademia%20Endigital!5e0!3m2!1ses!2sve!4v1774376728528!5m2!1ses!2sve" width="600" height="310" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+        </div>
         <div class="col">
             <form name="form1" action="#" method="get">
                 <label> Nombre</label>
@@ -41,6 +52,19 @@
                 </select>
                 <label>Email</label>
                 <input type="email" name="email" placeholder="Ingresa tu correo hola@tuemail.com">
+                <label>Fecha de nacimiento</label>
+                <input type="date" name="fecha_nac" placeholder="Escribe tu fecha de nacimiento">
+                <label>Ciudad</label>
+                <select name="ciudad">
+                    <option value="Maracay">Maracay</option>
+                    <option value="Caracas">Caracas</option>
+                    <option value="Maracaibo">Maracaibo</option>
+                    <option value="Valencia">Valencia</option>
+                    <option value="Barquisimeto">Barquisimeto</option>
+                </select>
+                <label>Mensaje</label>
+                <textarea name="mensaje" rows="4" cols="100"></textarea>
+
                 <input type="submit" value="Contactanos">
             </form>
         </div>
