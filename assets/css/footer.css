@@ -14,13 +14,14 @@
 }
 .footer ul li a{
     color: var(--white);
+    font-size: 1rem;
 }
 .footer ul li a:hover{
     color: var(--terciary-color)
 }
 .social-iconos a{
     color: var(--white);
-    font-size: 1.5rem;
+    font-size: 1.2rem;
     padding-left: 25px;
 }
 .social-iconos a:hover{

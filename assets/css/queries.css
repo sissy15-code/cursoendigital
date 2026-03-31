@@ -7,22 +7,22 @@ Cambiamos el diseño a algo más ancho.
 /*QUIENES SOMOS*/
     .quienes-somos{
     display: grid;
-    grid-template-columns: auto auto; /*se divide en dos columnas*/
+    grid-template-columns: auto; /*se divide en dos columnas*/
 }
 
 /*SERVICIOS*/
 .servicios{
     display: grid;
+    grid-template-columns: 1fr 1fr;
     row-gap: 30px; /*Agrega espacios entre las filas de mi grilla*/
-    grid-template-columns: 1fr 1fr 1fr;
 }
 
 /*FOOTER*/
 .footer{
     display: grid;
-    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-template-columns: 1fr 1fr;
     padding: 30px;
-    font-size: 0.95rem;
+    font-size: 0.90rem;
 }
 
 /*CONTACTO*/
@@ -34,6 +34,13 @@ Cambiamos el diseño a algo más ancho.
 .mapa{
     height: 350px;
 }
+.img-fluid{
+    width: 100%;
+    height: auto;
+}
+.footer ul li{
+    font-size: 1rem;
+}
 }
 
 /*========================================
@@ -41,5 +48,38 @@ Cambiamos el diseño a algo más ancho.
 Diseño para pantallas grandes.
 ========================================== */
 @media (min-width: 1024px) {
+/*QUIENES SOMOS*/
+    .quienes-somos{
+    display: grid;
+    grid-template-columns: auto auto; /*se divide en dos columnas*/
+}
 
+/*SERVICIOS*/
+.servicios{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    row-gap: 30px; /*Agrega espacios entre las filas de mi grilla*/
+}
+
+/*FOOTER*/
+.footer{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    padding: 30px;
+    font-size: 0.90rem;
+}
+
+/*CONTACTO*/
+.contacto{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    margin-top: 0;
+}
+.mapa{
+    height: 350px;
+}
+.img-fluid{
+    width: 100%;
+    height: auto;
+}
 }
