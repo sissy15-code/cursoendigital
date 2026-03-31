@@ -1,0 +1,32 @@
+/*footer*/
+.footer{
+    display: flex;
+    flex-direction: column;
+    padding: 30px;
+    font-size: 0.90rem;
+}
+.logo-footer{
+    width: 200px;
+}
+.secundary{
+    background-color: var(--secundary-color);
+    color: var(--white);
+}
+.footer ul li a{
+    color: var(--white);
+}
+.footer ul li a:hover{
+    color: var(--terciary-color)
+}
+.social-iconos a{
+    color: var(--white);
+    font-size: 1.5rem;
+    padding-left: 25px;
+}
+.social-iconos a:hover{
+    color: var(--terciary-color);
+}
+footer h3{
+    color: var(--baby-yellow);
+    padding-left: 40px;
+}

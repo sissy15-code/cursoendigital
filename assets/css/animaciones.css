@@ -1,0 +1,71 @@
+.carro{
+    width: 300px;
+    color: white;
+    animation: carro;
+    animation-duration: 5s;
+    position: relative;
+    animation-iteration-count: infinite;
+}
+
+.avion{
+    width: 300px;
+    color: white;
+    animation: avion;
+    animation-duration: 5s;
+    position: relative;
+    animation-iteration-count: infinite;
+}
+
+.moto{
+    width: 300px;
+    color: white;
+    animation: moto;
+    animation-duration: 5s;
+    position: relative;
+    animation-iteration-count: infinite;
+}
+
+.bici{
+    width: 300px;
+    color: white;
+    animation: bici;
+    animation-duration: 5s;
+    position: relative;
+    animation-iteration-count: infinite;
+}
+/*
+@keyframes box{
+    from{ background-color: black;}
+    to{ background-color: red;}
+}
+*/
+@keyframes carro{
+    0%{ background-color: aqua; left: 0px; top: 0px;}
+    100%{ background-color: darkblue; left: 700px; top: 0px;}
+}
+
+@keyframes avion{
+    0%{ background-color: aqua; left: 0px; top: 0px;}
+    100%{ background-color: darkblue; left: 1000px; top: 0px;}
+}
+
+@keyframes moto{
+    0%{ background-color: aqua; left: 0px; top: 0px;}
+    100%{ background-color: darkblue; left: 600px; top: 0px;}
+}
+
+@keyframes bici{
+    0%{ background-color: aqua; left: 0px; top: 0px;}
+    100%{ background-color: darkblue; left: 500px; top: 0px;}
+}
+.transiciones{
+    width: 300px;
+    height: 100px;
+    background-color: blue;
+    transition: width 3s;
+}
+
+.transiciones:hover{
+    /*width: 600px;*/
+    background-color: aqua;
+}

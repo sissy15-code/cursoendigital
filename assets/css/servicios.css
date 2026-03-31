@@ -1,0 +1,21 @@
+/*Servicios*/
+.container-fluid{
+    width: 100%;
+}
+.main-color{
+    background-color: var(--main-color);
+    color: var(--white);
+}
+.servicios{
+    display: flex;
+    flex-direction: column;
+}
+.center{
+    text-align: center;
+}
+.icon{
+    color: var(--baby-yellow);
+}
+.icon:hover{
+    color: var(--terciary-color);
+}
